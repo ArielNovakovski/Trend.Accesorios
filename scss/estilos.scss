@@ -1,0 +1,298 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import "_variables.scss";
+
+body {
+  background-color: white;
+  width: auto;
+  height: auto; }
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 200px; }
+
+a {
+  display: flex;
+  text-decoration: none; }
+
+/* Navegabilidad-nav-ul-li*/
+nav {
+  background-color: lightgrey;
+  height: 100px; }
+
+li {
+  font-size: medium;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+  text-decoration: black; }
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  list-style: none; }
+
+/* Menu con h1*/
+main {
+  background-color: white; }
+
+h1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center; }
+
+/* Formulario-contacto*/
+.registro {
+  width: 300px;
+  background-color: lightgrey;
+  padding: 30px;
+  margin: 10px;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  align-content: center; }
+
+.registro h4 {
+  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.control {
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+/*Inicio de pagina*/
+.contenedorGaleria {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto; }
+
+  .contenedorGaleria .galeria {
+    height: 450px;
+    margin-top: 1px;
+    padding: 1px; }
+
+
+.contenedorGaleria .galeria {
+  height: 450px;
+  margin-top: 1px;
+  padding: 1px; }
+
+
+.carousel {
+  display: flex;
+  height: 600px; }
+
+  .carousel .d-block {
+    height: 600px; }
+
+
+.carousel .d-block {
+  height: 600px; }
+
+/*Productos*/
+.productosGaleria {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: auto auto auto; }
+  .productosGaleria .img0 {
+    height: 450px;
+    margin-top: 1px;
+    padding: 1px; }
+
+
+/*sobre mi*/
+p {
+  text-align: center;
+  padding: 5px; }
+
+/*formas de envio*/
+.col {
+  height: 300px;
+  border-style: groove;
+  background-color: lightgrey;
+  margin: 5px;
+  padding: 1px; }
+
+/* Pie de pagina-Final*/
+footer {
+  background-color: lightgrey;
+  height: 150px; }
+
+.copy {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px; }
+
+@media only screen and (max-width: 600px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 190px;
+    max-width: 100%; }
+  nav {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 500px;
+    max-width: 100%; }
+  .contenedorGaleria {
+    grid-template-columns: auto auto; }
+  .contenedorGaleria .galeria {
+    display: flex;
+    width: 100%;
+    height: 300px; }
+  .carousel {
+    display: flex;
+    height: 400px; }
+  .carousel .d-block {
+    height: 400px;
+    width: 100%; }
+  .productosGaleria {
+    grid-template-columns: auto auto; }
+  .productosGaleria .img0 {
+    display: flex;
+    width: 100%;
+    height: 300px; }
+  header {
+    display: flex;
+    justify-content: center;
+    height: 300px; }
+  .col-md-6 {
+    height: 100%;
+    max-width: 100%; } }
+
+@media (min-width: 601px) and (max-width: 1600px) {
+  /* Navegabilidad-nav-ul-li*/
+  nav {
+    background-color: lightgrey;
+    height: 100px;
+    width: 100%; }
+  li {
+    font-size: medium;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-decoration: black; }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    list-style: none; }
+  /* Menu con h1*/
+  main {
+    background-color: white; }
+  h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center; }
+  /* Formulario-contacto*/
+  .registro {
+    width: 300px;
+    background-color: lightgrey;
+    padding: 30px;
+    margin: 10px;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    align-content: center; }
+  .registro h4 {
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .control {
+    width: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  /*Inicio de pagina*/
+  .contenedorGaleria, .productosGaleria {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto; }
+  .contenedorGaleria .galeria, .productosGaleria .galeria {
+    height: 450px;
+    margin-top: 1px;
+    padding: 1px;
+    max-width: 100%; }
+  .carousel {
+    display: flex;
+    height: 600px; }
+  .carousel .d-block {
+    height: 600px;
+    width: 100%; }
+  /*Productos*/
+  .productosGaleria {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto; }
+  .productosGaleria .img0 {
+    height: 450px;
+    margin-top: 1px;
+    padding: 1px;
+    max-width: 100%; }
+  /*sobre mi*/
+  p {
+    text-align: center;
+    padding: 5px; }
+  /*formas de envio*/
+  .col {
+    height: 300px;
+    border-style: groove;
+    background-color: lightgrey;
+    margin: 5px;
+    padding: 1px; }
+  /* Pie de pagina-Final*/
+  footer {
+    background-color: lightgrey;
+    height: 150px;
+    width: 100%; }
+  .copy {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px; } }
+
+body {
+  background-color: white;
+  width: auto;
+  height: auto; }
+
+  @mixin estilos_pagina($color-letra , $tamanio-letra) {
+
+    color:$color-letra;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:$tamanio-letra;
+    text-align: center; 
+
+}
+
+
+h1{
+@include estilos_pagina ( rgb(22, 18, 18) , 50px );
+}
